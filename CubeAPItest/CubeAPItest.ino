@@ -83,10 +83,10 @@ void loop(void) {
   }
   /*  for (int c = 4; c > 0; c--) {
    *   //  this causes some sort of a crash with a non-changing display and a line of colour that does not appear to have been programmed
-      cube.set(c, 0, 2, RGB(200, 100, 00));
-      delay(100);
-    }
-  */
+   cube.set(c, 0, 2, RGB(200, 100, 00));
+   delay(100);
+   }
+   */
   for (int c = 0; c < 256; c = c + 8) {
     cube.all( RGB(c, 000, 200));
     delay(300);
@@ -97,6 +97,7 @@ void loop(void) {
   }
   delay(1000);
 }
+
 
 
 
