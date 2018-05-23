@@ -82,7 +82,7 @@ void loop(void) {
     delay(300);
   }
   /*  for (int c = 4; c > 0; c--) {
-   *   //  this causes some dort of a crash with a non-changing display and a line of colour that does not appear to have been programmed
+   *   //  this causes some sort of a crash with a non-changing display and a line of colour that does not appear to have been programmed
       cube.set(c, 0, 2, RGB(200, 100, 00));
       delay(100);
     }
